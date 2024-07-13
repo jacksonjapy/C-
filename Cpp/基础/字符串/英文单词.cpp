@@ -22,13 +22,13 @@ int main(){
     string test_str1 = "apple";
     string test_str2 = "Apple";
     if(is_palindrome(test_str1)){
-        cout << test_str1 << " is a palindrome" << endl;
+        cout << test_str1 << " is a palindrome." << endl;
     }
     if(is_palindrome(test_str2)){
-        cout << test_str2 << " is a palindrome" << endl;
+        cout << test_str2 << " is a palindrome." << endl;
     }
     else{
-        cout << "None of the strings are palindromes" << endl;
+        cout << "None of the strings are palindromes." << endl;
     }
     return 0;
 }
