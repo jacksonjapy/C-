@@ -15,5 +15,7 @@
 /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/iterator_test.dir
 /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/algorithm_test.dir
 /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/python_dict.dir
+/home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/TraverseTheString.dir
+/home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/english_words.dir
 /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

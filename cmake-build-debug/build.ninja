@@ -567,6 +567,68 @@ build python_dict: CXX_EXECUTABLE_LINKER__python_dict_Debug CMakeFiles/python_di
   TARGET_FILE = python_dict
   TARGET_PDB = python_dict.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TraverseTheString
+
+
+#############################################
+# Order-only phony target for TraverseTheString
+
+build cmake_object_order_depends_target_TraverseTheString: phony || CMakeFiles/TraverseTheString.dir
+
+build CMakeFiles/TraverseTheString.dir/Cpp/基础/字符串/遍历字符串.cpp.o: CXX_COMPILER__TraverseTheString_unscanned_Debug /home/jackson/Documents/CLionProjects/信息安全技术_cpp/Cpp/基础/字符串/遍历字符串.cpp || cmake_object_order_depends_target_TraverseTheString
+  DEP_FILE = CMakeFiles/TraverseTheString.dir/Cpp/基础/字符串/遍历字符串.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/TraverseTheString.dir
+  OBJECT_FILE_DIR = CMakeFiles/TraverseTheString.dir/Cpp/基础/字符串
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TraverseTheString
+
+
+#############################################
+# Link the executable TraverseTheString
+
+build TraverseTheString: CXX_EXECUTABLE_LINKER__TraverseTheString_Debug CMakeFiles/TraverseTheString.dir/Cpp/基础/字符串/遍历字符串.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/TraverseTheString.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TraverseTheString
+  TARGET_PDB = TraverseTheString.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target english_words
+
+
+#############################################
+# Order-only phony target for english_words
+
+build cmake_object_order_depends_target_english_words: phony || CMakeFiles/english_words.dir
+
+build CMakeFiles/english_words.dir/Cpp/基础/字符串/英文单词.cpp.o: CXX_COMPILER__english_words_unscanned_Debug /home/jackson/Documents/CLionProjects/信息安全技术_cpp/Cpp/基础/字符串/英文单词.cpp || cmake_object_order_depends_target_english_words
+  DEP_FILE = CMakeFiles/english_words.dir/Cpp/基础/字符串/英文单词.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/english_words.dir
+  OBJECT_FILE_DIR = CMakeFiles/english_words.dir/Cpp/基础/字符串
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target english_words
+
+
+#############################################
+# Link the executable english_words
+
+build english_words: CXX_EXECUTABLE_LINKER__english_words_Debug CMakeFiles/english_words.dir/Cpp/基础/字符串/英文单词.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/english_words.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = english_words
+  TARGET_PDB = english_words.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -601,7 +663,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/jackson/Documents/CLionProjects/信息安全技术_cpp/cmake-build-debug
 
-build all: phony _cpp ftp_server ftp_client variables inline_function function_overloading class_create Polymorphism friend_function function_template class_template container_vector container_list container_map iterator_test algorithm_test python_dict
+build all: phony _cpp ftp_server ftp_client variables inline_function function_overloading class_create Polymorphism friend_function function_template class_template container_vector container_list container_map iterator_test algorithm_test python_dict TraverseTheString english_words
 
 # =============================================================================
 # Built-in targets
