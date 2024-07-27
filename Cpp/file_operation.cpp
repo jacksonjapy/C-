@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     string str = "hello world";
-    ofstream ofs("test");
+    ofstream ofs("test.txt");
     if (ofs.is_open()) {
         // 使用 << 运算符将字符串写入文件
         ofs << str;
