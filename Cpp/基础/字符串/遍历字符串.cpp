@@ -17,7 +17,7 @@ void test(const string& string1){
 
 int main(){
     string str = "Hello, I'm Lifu!\n";
-    for(char c : str){
+    for(const char c : str){
         cout << c;
     }
     test(str);
