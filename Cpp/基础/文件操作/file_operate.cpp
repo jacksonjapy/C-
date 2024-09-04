@@ -4,26 +4,32 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+using std::cout;
+using std::endl;
+using std::cerr;
+using std::ofstream;
+using std::ifstream;
+using std::string;
 
 int main() {
     // 写入文件
-    std::ofstream writeFile("writeTest");
+    ofstream writeFile("writeTest");
     if (!writeFile) {
-        std::cerr << "写入文件失败！" << std::endl;
+        cerr << "写入文件失败！" << endl;
         return 1;
     }
-    writeFile << "Hello, I'm Lifu!" << std::endl;
+    writeFile << "Hello, I'm Lifu!" << endl;
     writeFile.close();
 
     // 读取文件
-    std::ifstream inFile("writeTest");
+    ifstream inFile("writeTest");
     if (!inFile) {
-        std::cerr << "读取文件失败！" << std::endl;
+        cerr << "读取文件失败！" << endl;
         return 1;
     }
-    std::string content;
-    while (std::getline(inFile, content)) {
-        std::cout << content << std::endl;
+    string content;
+    while (getline(inFile, content)) {
+        cout << content << endl;
     }
     inFile.close();
 
